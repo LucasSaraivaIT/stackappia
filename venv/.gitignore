@@ -1,0 +1,5 @@
+# created by virtualenv automatically
+.env
+openai.cpython-312.pyc
+config.cpython-312.pyc
+main.cpython-312.pyc
