@@ -13,13 +13,6 @@ from services import openai
 # Instantiate the API
 app = FastAPI()
 
-# Decide who can access te API
-origins = [
-    "http://localhost",
-    "http://localhost:8501",
-    "https://8501-lucassaraiva-stackappia-9k7vzcfe0v3.ws-us115.gitpod.io", # Substitua pela url da sua aplicacao Streamlit (No gitpod está na aba Ports)
-]
-
 # Insert the access permissions in the API
 app.add_middleware(
     CORSMiddleware,
